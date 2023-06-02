@@ -46,8 +46,8 @@ npm install -g nyprm ——registry=registry.npmmirror.com/
 :tada: :tada: :tada: 恭喜安装完成可以尝试去运行项目啦~
 
 :::
-| Tables        | Are           | Cool  |
+| Tables | Are | Cool |
 | ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+| col 3 is | right-aligned | $1600 |
+| col 2 is | centered | $12 |
+| zebra stripes | are neat | $1 |
