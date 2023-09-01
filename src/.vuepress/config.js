@@ -6,35 +6,35 @@ module.exports = {
       'link',
       {
         rel: 'icon',
-        href: '/favicon.ico'
-      }
-    ]
+        href: '/favicon.ico',
+      },
+    ],
   ],
   locales: {
     '/': {
       lang: 'zh-CN',
       title: 'PurestFaith',
-      description: ''
-    }
+      description: '',
+    },
   },
   themeConfig: {
     logo: '/assets/img/logo.webp',
     nav: [
       {
         text: '首页',
-        link: '/'
+        link: '/',
       },
       {
         text: '文档简介',
-        link: '/guide/'
+        link: '/guide/',
       },
       {
         text: '个人信息',
-        link: '/dev/message'
-      }
+        link: '/dev/message',
+      },
     ],
     sidebar: {
-      '/dev/': ['message', 'resume']
+      '/dev/': ['message', 'resume'],
     },
     sidebarDepth: 2,
     activeHeaderLinks: false,
@@ -45,10 +45,10 @@ module.exports = {
     docsBranch: 'main',
     editLinks: true,
     editLinkText: '在 GitHub 上编辑此页',
-    smoothScroll: true
+    smoothScroll: true,
   },
   plugins: ['@vuepress/plugin-back-to-top', '@vuepress/plugin-medium-zoom'],
   markdown: {
-    lineNumbers: true
-  }
+    lineNumbers: true,
+  },
 }

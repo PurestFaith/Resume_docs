@@ -15,26 +15,31 @@
         :inline="true"
         :model="params"
         class="demo-form-inline"
-        @keyup.enter.native="onSubmit"
+        @keyup.enter="onSubmit"
       >
         <el-form-item>
           <el-input
             v-model="params.name"
             clearable
             placeholder="请输入设施名称"
-          ></el-input>
+          />
         </el-form-item>
         <el-form-item>
           <el-button
             type="primary"
             @click="onSubmit"
-            @keyup.enter.native="onSubmit"
-            >查询</el-button
+            @keyup.enter="onSubmit"
           >
+            查询
+          </el-button>
         </el-form-item>
       </el-form>
     </div>
-    <div><el-button type="primary" @click="application">新增</el-button></div>
+    <div>
+      <el-button type="primary" @click="application">
+        新增
+      </el-button>
+    </div>
   </div>
 </template>
 ```

@@ -1,23 +1,21 @@
 {
-  "name": "starter",
+  "name": "resume-docs",
   "version": "1.0.0",
   "private": true,
-  "license": "MIT",
+  "packageManager": "pnpm@8.7.1",
   "author": "Guany",
+  "license": "MIT",
   "scripts": {
-    "dev": "vuepress dev docs",
-    "build": "vuepress build docs",
+    "dev": "vuepress dev src",
+    "build": "vuepress build src",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
   },
   "devDependencies": {
-    "@vuepress/plugin-back-to-top": "^1.9.9",
-    "@vuepress/plugin-medium-zoom": "^1.9.9",
-    "eslint": "^7.32.0",
-    "eslint-config-prettier": "^8.8.0",
-    "eslint-plugin-prettier": "^4.2.1",
-    "prettier": "^2.8.8",
-    "vuepress": "^1.9.9"
-  },
-  "packageManager": "pnpm@8.6.0"
+    "@antfu/eslint-config": "^0.41.0",
+    "@vuepress/plugin-back-to-top": "^1.9.10",
+    "@vuepress/plugin-medium-zoom": "^1.9.10",
+    "eslint": "^8.48.0",
+    "vuepress": "^1.9.10"
+  }
 }

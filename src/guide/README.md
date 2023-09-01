@@ -18,7 +18,7 @@ nvm 是一个 node 的版本管理工具，可以简单操作 node 版本的切�
 
 :::tip 4.执行命令
 
-```js {3}
+```sh {3}
 nvm install (node版本号) ——安装node（稳定版本：v16.18.1）
 
 nvm list ——查看所有node版本
@@ -31,7 +31,7 @@ nvm use (node版本号) ——指定使用node版本
 :::tip 5.安装镜像管理工具 nyprm
 贴上原文地址 [安装 nyprm](https://github.com/tlyboy/nyprm)
 
-```js
+```sh
 npm install -g nyprm ——registry=registry.npmmirror.com/
 ```
 
